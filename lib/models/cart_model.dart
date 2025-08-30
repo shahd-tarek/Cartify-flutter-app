@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hello/models/cartProducts_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 class CartModel with ChangeNotifier {
-  List<Products> _cartItems = [];
+  final List<Products> _cartItems = [];
   List<Products> get cartItems => _cartItems;
 
   void addProduct(Products product) async {

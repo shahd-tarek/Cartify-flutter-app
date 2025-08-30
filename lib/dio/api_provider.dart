@@ -67,7 +67,7 @@ class ApiProvider {
       }
     } catch (e) {
       print('Error fetching cart products: $e');
-      throw e;
+      rethrow;
     }
   }
 }

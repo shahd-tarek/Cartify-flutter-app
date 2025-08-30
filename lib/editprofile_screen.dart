@@ -122,7 +122,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             Row(
               children: <Widget>[
                 Expanded(
-                  child: Container(
+                  child: SizedBox(
                     height: 50,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
@@ -139,7 +139,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ),
                 const SizedBox(width: 10),
                 Expanded(
-                  child: Container(
+                  child: SizedBox(
                     height: 50,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(

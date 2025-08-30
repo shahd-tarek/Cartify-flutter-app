@@ -10,7 +10,7 @@ class ProfilepageScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color(0xff66A4E2),
-        title: Text('Profile'),
+        title: const Text('Profile'),
       ),
       body: Center(
         child: Padding(
@@ -48,10 +48,10 @@ class ProfilepageScreen extends StatelessWidget {
                       MaterialPageRoute(
                           builder: (context) => const LoginScreen()));
                 },
-                child: const Text('Sign Out'),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color.fromARGB(255, 254, 96, 85),
+                  backgroundColor: const Color.fromARGB(255, 254, 96, 85),
                 ),
+                child: const Text('Sign Out'),
               ),
             ],
           ),
