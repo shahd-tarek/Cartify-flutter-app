@@ -3,6 +3,9 @@
 A Flutter Shopping App Project.
 
 ## Getting Started
+## 🎥 Demo
+![App Demo](images/dimo.gif)
+
 
 This project is a starting point for a Flutter application.
 
