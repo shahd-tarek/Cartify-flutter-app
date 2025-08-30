@@ -1,6 +1,6 @@
-# hello
+# Cartify
 
-A new Flutter project.
+A Flutter Shopping App Project.
 
 ## Getting Started
 
